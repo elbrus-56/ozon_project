@@ -1,0 +1,296 @@
+{
+    "result": {
+        "postings": [
+            {
+                "posting_number": "11111111-0031-1", #
+                "order_id": 9022036170,              #
+                "order_number": "11111111-0031-1",
+                "status": "awaiting_deliver",        #
+                "delivery_method": {
+                    "id": 1020000171361000,
+                    "name": "Доставка Ozon самостоятельно, Челябинск",
+                    "warehouse_id": 1020000171361000,#
+                    "warehouse": "розетки наличие",
+                    "tpl_provider_id": 24,           #
+                    "tpl_provider": "Доставка Ozon"
+                },
+                "tracking_number": "",               #
+                "tpl_integration_type": "ozon",
+                "in_process_at": "2023-03-17T19:25:59Z",#
+                "shipment_date": "2023-03-21T08:00:00Z",#
+                "delivering_date": null,                #
+                "cancellation": {                       #
+                    "cancel_reason_id": 0,
+                    "cancel_reason": "",
+                    "cancellation_type": "",
+                    "cancelled_after_ship": false,
+                    "affect_cancellation_rating": false,
+                    "cancellation_initiator": ""        #
+                },
+                "customer": null,                       #
+                "products": [
+                    {
+                        "price": "506.000000",
+                        "offer_id": "И00016556_2",
+                        "name": "Выключатель 1-клавишный SchE AtlasDesign алюминий с подсветкой с/у",
+                        "sku": 867503151,
+                        "quantity": 5,
+                        "mandatory_mark": [
+                            "",
+                            ""
+                        ],
+                        "currency_code": "RUB"
+                    },
+                    {
+                        "price": "777.000000",
+                        "offer_id": "К00023611_3",
+                        "name": "Розетка 1-местная SchE AtlasDesign алюминий с/у б/з",
+                        "sku": 866418193,
+                        "quantity": 1,
+                        "mandatory_mark": [
+                            ""
+                        ],
+                        "currency_code": "RUB"
+                    },
+                    {
+                        "price": "349.000000",
+                        "offer_id": "Г00005449_10",
+                        "name": "Розетка 1-местная SchE AtlasDesign алюминий с/у с/з",
+                        "sku": 866417812,
+                        "quantity": 1,
+                        "mandatory_mark": [
+                            ""
+                        ],
+                        "currency_code": "RUB"
+                    },
+                    {
+                        "price": "900.000000",
+                        "offer_id": "И00015509_10",
+                        "name": "Рамка 1-постовая Schneider Electric AtlasDesign алюминий",
+                        "sku": 865380492,
+                        "quantity": 1,
+                        "mandatory_mark": [
+                            ""
+                        ],
+                        "currency_code": "RUB"
+                    },
+                    {
+                        "price": "629.000000",
+                        "offer_id": "К00030095_1",
+                        "name": "Выключатель 2-клав. SchE AtlasDesign алюминий с подсветкой",
+                        "sku": 867503311,
+                        "quantity": 1,
+                        "mandatory_mark": [
+                            ""
+                        ],
+                        "currency_code": "RUB"
+                    }
+                ],
+                "addressee": null,             #
+                "barcodes": {                  #
+                    "upper_barcode": "%101%1986520302",
+                    "lower_barcode": "500082077629000"
+                },
+                "analytics_data": {
+                    "region": "Московская Область",
+                    "city": "Дмитров",
+                    "delivery_type": "PVZ",
+                    "is_premium": false,
+                    "payment_type_group_name": "Электронные деньги",
+                    "warehouse_id": 1020000171361000,
+                    "warehouse": "розетки наличие",
+                    "tpl_provider_id": 24,
+                    "tpl_provider": "Доставка Ozon",
+                    "delivery_date_begin": "2023-03-29T14:54:00Z",
+                    "delivery_date_end": "2023-03-29T18:00:00Z",
+                    "is_legal": false
+                },
+                "financial_data": {
+                    "products": [
+                        {
+                            "commission_amount": 0,
+                            "commission_percent": 0,
+                            "payout": 0,
+                            "product_id": 867503151,
+                            "old_price": 581,
+                            "price": 506,
+                            "total_discount_value": 75,
+                            "total_discount_percent": 12.91,
+                            "actions": [
+                                "Системная виртуальная скидка селлера"
+                            ],
+                            "picking": null,
+                            "quantity": 2,
+                            "client_price": "",
+                            "item_services": {
+                                "marketplace_service_item_fulfillment": 0,
+                                "marketplace_service_item_pickup": 0,
+                                "marketplace_service_item_dropoff_pvz": 0,
+                                "marketplace_service_item_dropoff_sc": 0,
+                                "marketplace_service_item_dropoff_ff": 0,
+                                "marketplace_service_item_direct_flow_trans": 0,
+                                "marketplace_service_item_return_flow_trans": 0,
+                                "marketplace_service_item_deliv_to_customer": 0,
+                                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                                "marketplace_service_item_return_part_goods_customer": 0,
+                                "marketplace_service_item_return_after_deliv_to_customer": 0
+                            },
+                            "currency_code": "RUB"
+                        },
+                        {
+                            "commission_amount": 0,
+                            "commission_percent": 0,
+                            "payout": 0,
+                            "product_id": 867503311,
+                            "old_price": 723,
+                            "price": 629,
+                            "total_discount_value": 94,
+                            "total_discount_percent": 13,
+                            "actions": [
+                                "Системная виртуальная скидка селлера"
+                            ],
+                            "picking": null,
+                            "quantity": 1,
+                            "client_price": "",
+                            "item_services": {
+                                "marketplace_service_item_fulfillment": 0,
+                                "marketplace_service_item_pickup": 0,
+                                "marketplace_service_item_dropoff_pvz": 0,
+                                "marketplace_service_item_dropoff_sc": 0,
+                                "marketplace_service_item_dropoff_ff": 0,
+                                "marketplace_service_item_direct_flow_trans": 0,
+                                "marketplace_service_item_return_flow_trans": 0,
+                                "marketplace_service_item_deliv_to_customer": 0,
+                                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                                "marketplace_service_item_return_part_goods_customer": 0,
+                                "marketplace_service_item_return_after_deliv_to_customer": 0
+                            },
+                            "currency_code": "RUB"
+                        },
+                        {
+                            "commission_amount": 0,
+                            "commission_percent": 0,
+                            "payout": 0,
+                            "product_id": 865380492,
+                            "old_price": 1035,
+                            "price": 900,
+                            "total_discount_value": 135,
+                            "total_discount_percent": 13.04,
+                            "actions": [
+                                "Системная виртуальная скидка селлера"
+                            ],
+                            "picking": null,
+                            "quantity": 1,
+                            "client_price": "",
+                            "item_services": {
+                                "marketplace_service_item_fulfillment": 0,
+                                "marketplace_service_item_pickup": 0,
+                                "marketplace_service_item_dropoff_pvz": 0,
+                                "marketplace_service_item_dropoff_sc": 0,
+                                "marketplace_service_item_dropoff_ff": 0,
+                                "marketplace_service_item_direct_flow_trans": 0,
+                                "marketplace_service_item_return_flow_trans": 0,
+                                "marketplace_service_item_deliv_to_customer": 0,
+                                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                                "marketplace_service_item_return_part_goods_customer": 0,
+                                "marketplace_service_item_return_after_deliv_to_customer": 0
+                            },
+                            "currency_code": "RUB"
+                        },
+                        {
+                            "commission_amount": 0,
+                            "commission_percent": 0,
+                            "payout": 0,
+                            "product_id": 866417812,
+                            "old_price": 401,
+                            "price": 349,
+                            "total_discount_value": 52,
+                            "total_discount_percent": 12.97,
+                            "actions": [
+                                "Системная виртуальная скидка селлера"
+                            ],
+                            "picking": null,
+                            "quantity": 1,
+                            "client_price": "",
+                            "item_services": {
+                                "marketplace_service_item_fulfillment": 0,
+                                "marketplace_service_item_pickup": 0,
+                                "marketplace_service_item_dropoff_pvz": 0,
+                                "marketplace_service_item_dropoff_sc": 0,
+                                "marketplace_service_item_dropoff_ff": 0,
+                                "marketplace_service_item_direct_flow_trans": 0,
+                                "marketplace_service_item_return_flow_trans": 0,
+                                "marketplace_service_item_deliv_to_customer": 0,
+                                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                                "marketplace_service_item_return_part_goods_customer": 0,
+                                "marketplace_service_item_return_after_deliv_to_customer": 0
+                            },
+                            "currency_code": "RUB"
+                        },
+                        {
+                            "commission_amount": 0,
+                            "commission_percent": 0,
+                            "payout": 0,
+                            "product_id": 866418193,
+                            "old_price": 893,
+                            "price": 777,
+                            "total_discount_value": 116,
+                            "total_discount_percent": 12.99,
+                            "actions": [
+                                "Системная виртуальная скидка селлера"
+                            ],
+                            "picking": null,
+                            "quantity": 1,
+                            "client_price": "",
+                            "item_services": {
+                                "marketplace_service_item_fulfillment": 0,
+                                "marketplace_service_item_pickup": 0,
+                                "marketplace_service_item_dropoff_pvz": 0,
+                                "marketplace_service_item_dropoff_sc": 0,
+                                "marketplace_service_item_dropoff_ff": 0,
+                                "marketplace_service_item_direct_flow_trans": 0,
+                                "marketplace_service_item_return_flow_trans": 0,
+                                "marketplace_service_item_deliv_to_customer": 0,
+                                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                                "marketplace_service_item_return_part_goods_customer": 0,
+                                "marketplace_service_item_return_after_deliv_to_customer": 0
+                            },
+                            "currency_code": "RUB"
+                        }
+                    ],
+                    "posting_services": {
+                        "marketplace_service_item_fulfillment": 0,
+                        "marketplace_service_item_pickup": 0,
+                        "marketplace_service_item_dropoff_pvz": 0,
+                        "marketplace_service_item_dropoff_sc": 0,
+                        "marketplace_service_item_dropoff_ff": 0,
+                        "marketplace_service_item_direct_flow_trans": 0,
+                        "marketplace_service_item_return_flow_trans": 0,
+                        "marketplace_service_item_deliv_to_customer": 0,
+                        "marketplace_service_item_return_not_deliv_to_customer": 0,
+                        "marketplace_service_item_return_part_goods_customer": 0,
+                        "marketplace_service_item_return_after_deliv_to_customer": 0
+                    },
+                    "cluster_from": "",
+                    "cluster_to": "Moskovskaya oblast` Sever"
+                },
+                "is_express": false,
+                "requirements": {
+                    "products_requiring_gtd": [],
+                    "products_requiring_country": [],
+                    "products_requiring_mandatory_mark": [],
+                    "products_requiring_rnpt": []
+                },
+                "parent_posting_number": "",
+                "available_actions": [
+                    "cancel",
+                    "label_download"
+                ],
+                "multi_box_qty": 1,
+                "is_multibox": false,
+                "substatus": "posting_transferring_to_delivery"
+            }
+        ],
+        "has_next": false
+    }
+}

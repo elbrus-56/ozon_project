@@ -1,0 +1,10 @@
+command = "gunicorn"
+pythonpath = "/var/www/sites/django/ozon-drf-main/ozondrf"
+bind = "0.0.0.0:8001"
+workers = 2
+user = None
+group = None
+timeout = 120
+limit_request_fields = 32000
+limit_request_field_size = 0
+raw_env = "DJANGO_SETTINGS_MODULE=ozondrf.settings"

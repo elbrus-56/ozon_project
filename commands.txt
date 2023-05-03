@@ -1,0 +1,49 @@
+cd /var/www/sites/django/ozon-drf-main/ozondrf
+source venv/bin/activate
+cd ozondrf
+cd /var/www/sites/django/ozon-drf-main/ozondrf
+supervisorctl -c /var/www/sites/django/ozon-drf-main/supervisor.ozondrf.conf
+cp /var/www/sites/django/ozon-drf-main/supervisor.ozondrf.conf /etc/supervisor/conf.d/
+====
+sudo docker-compose down -v && sudo docker-compose up -d 
+sudo docker-compose logs
+
+[
+    { "posting_number": str,
+    "products": [
+        "sku" : str,
+        "party": int,
+        "quantity": int
+        "price": float
+        "mandatory_mark": []
+        "currency_code": "RUB",
+    ]},
+    ..
+]
+[
+    {
+        "posting_number": str,
+        "id": str
+    },
+    ..
+]
+
+в POST
+
+files={"566844-5532-1": <file1>, "566844-5532-2": <file2>}
+
+python manage.py shell
+python manage.py createsuperuser
+leo
+mk1234
+----
+gunicorn --bind 127.0.0.1:8033 config.wsgi
+----
+gunicorn --bind 127.0.0.1:8030 ozondrf.wsgi
+python -m celery -A ozondrf beat
+python -m celery -A ozondrf worker
+----
+changes - 
+/var/www/sites/django/ozon/ozondrf/connector/tusmk.py
+/var/www/sites/django/ozon/ozondrf/connector/service.py
+---
